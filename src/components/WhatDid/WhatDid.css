@@ -1,0 +1,13 @@
+.wd-span {
+  background: radial-gradient(50% 50% at 50% 50%, #3bf686 32.29%, #f63bab 100%),
+    radial-gradient(
+      47.68% 47.68% at 50% 47.68%,
+      #c11a9d 14.06%,
+      rgba(59, 246, 134, 0.37) 41.15%
+    ),
+    linear-gradient(0deg, #edcece, #edcece);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}

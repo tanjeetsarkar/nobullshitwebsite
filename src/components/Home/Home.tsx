@@ -4,6 +4,7 @@ import Avatar from "../Avatar/Avatar";
 import Biography from "../Biography/Biography";
 import LetsConnect from "../LetsConnect/LetsConnect";
 import twitter from "../../assets/Logo white.svg";
+import WhatDid from "../WhatDid/WhatDid";
 
 const Home: React.FC = () => {
   return (
@@ -30,7 +31,8 @@ const Home: React.FC = () => {
         <div className="d-none d-md-block">
           <LetsConnect />
         </div>
-      </div>
+      </div >
+        <WhatDid />
     </div>
   );
 };
