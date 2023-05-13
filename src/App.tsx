@@ -15,7 +15,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <div>
+      <div className="container">
         <NavBar />
         <div className="mt-5">
           <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />
