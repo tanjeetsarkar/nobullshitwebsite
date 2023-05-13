@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg border-bottom border-secondary-subtle border-opacity-10">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           no bullshit website.
