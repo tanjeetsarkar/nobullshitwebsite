@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import twitter from "../../assets/Logo white.svg";
+import "./LetsConnect.css";
 
-const LetsConnect = () => {
+const LetsConnect: React.FC = () => {
   return (
-    <div>Lets Connect</div>
-  )
-}
+    <div className="d-flex flex-column px-4">
+      <h2>Lets Connect</h2>
+      <a href="https://twitter.com/TanjeetSarkar" style={{cursor: 'pointer'}}>
+        <img className="icon-svg " src={twitter} alt="twitter" />
+      </a>
+    </div>
+  );
+};
 
-export default LetsConnect
+export default LetsConnect;

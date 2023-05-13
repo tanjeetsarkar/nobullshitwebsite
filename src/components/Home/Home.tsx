@@ -3,12 +3,16 @@ import "./Home.css";
 import Avatar from "../Avatar/Avatar";
 import Biography from "../Biography/Biography";
 import LetsConnect from "../LetsConnect/LetsConnect";
+import twitter from "../../assets/Logo white.svg";
 
 const Home: React.FC = () => {
   return (
     <div className="container-fluid d-flex flex-column">
-      <div className="d-md-none d-flex align-items-center justify-content-center pb-3">
+      <div className="d-md-none d-flex flex-column align-items-center justify-content-center pb-3">
         <Avatar />
+        <div className="pt-3">
+          <img className="icon-svg-mobile" src={twitter} alt="twitter" />
+        </div>
       </div>
       <div id="top-heading" className="top-heading">
         <h1 className="text-md-start text-center">
