@@ -1,0 +1,16 @@
+.top-heading {
+  background: linear-gradient(135.1deg, #3bf686 18.11%, #4ca9ff 91.85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  max-width: 50%;
+
+}
+
+@media (max-width: 576px) {
+  /* Path: src/components/Home/Home.css */
+  .top-heading {
+    text-align: center;
+    max-width: 100%;
+  }
+}
