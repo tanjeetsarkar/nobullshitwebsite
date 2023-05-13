@@ -6,7 +6,7 @@ import Home from "./components/Home/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <Home />,
     errorElement: <>HUGE ERROR incorrect route...</>,
   },
