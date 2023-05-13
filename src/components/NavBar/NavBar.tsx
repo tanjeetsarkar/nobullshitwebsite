@@ -23,7 +23,7 @@ const NavBar: React.FC = () => {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav justify-content-between w-25">
-            <a className="nav-link active" aria-current="page" href="/">
+            <a className="nav-link active" aria-current="page" href="/home">
               Home
             </a>
             <a className="nav-link" href="#">
