@@ -7,10 +7,9 @@
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   /* Path: src/components/Home/Home.css */
   .top-heading {
-    text-align: center;
     max-width: 100%;
   }
 }
