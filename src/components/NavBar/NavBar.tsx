@@ -26,10 +26,10 @@ const NavBar: React.FC = () => {
             <a className="nav-link active" aria-current="page" href="/">
               Home
             </a>
-            <a className="nav-link" href="/snippets">
+            <a className="nav-link" href="#">
               Snippets
             </a>
-            <a className="nav-link" href="/blog">
+            <a className="nav-link" href="#">
               Blog
             </a>
             {/* <a className="nav-link disabled">Disabled</a> */}
