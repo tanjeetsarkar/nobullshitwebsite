@@ -4,13 +4,18 @@ import NavBar from "./components/NavBar/NavBar";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./components/Home/Home";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+      errorElement: <>HUGE ERROR incorrect route...</>,
+    },
+  ],
   {
-    path: "/",
-    element: <Home />,
-    errorElement: <>HUGE ERROR incorrect route...</>,
-  },
-]);
+    basename: "/nobullshitwebsite",
+  }
+);
 
 function App() {
   return (
