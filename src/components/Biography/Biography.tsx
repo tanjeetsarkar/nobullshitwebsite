@@ -3,10 +3,10 @@ import "./Biography.css";
 
 const Biography: React.FC = () => {
   return (
-    <div className="container d-flex flex-column">
-      <h3>Biography</h3>
-      <p
-        className="designed-p"
+    <div className="d-flex flex-column ms-sm-5 justify-content-center align-items-center justify-content-sm-start align-items-sm-start">
+      <h2 className="pb-1">Biography</h2>
+      <h5
+        className="designed-p text-sm-start text-center"
         style={{
           maxWidth: "500px",
         }}
@@ -15,7 +15,7 @@ const Biography: React.FC = () => {
         building brand. Excited on{" "}
         <span className="blue">React, APIs, Python </span>
         and <span className="lime">AI.</span>
-      </p>
+      </h5>
     </div>
   );
 };
