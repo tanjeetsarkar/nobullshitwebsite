@@ -23,7 +23,7 @@ const Home: React.FC = () => {
         </h1>
       </div>
       <div className="d-flex mt-5 py-2 justify-content-md-start justify-content-center align-items-center">
-        <div className="d-none d-md-block">
+        <div className="d-none d-md-flex">
           <Avatar />
         </div>
         <Biography />
