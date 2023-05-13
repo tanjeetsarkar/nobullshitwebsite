@@ -18,8 +18,8 @@ const NavBar: React.FC = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div className="navbar-nav justify-content-between w-25">
             <a className="nav-link active" aria-current="page" href="/">
               Home
             </a>
