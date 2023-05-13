@@ -1,12 +1,12 @@
 import React from "react";
 import "./WhatDid.css";
 
-const WhatDid = () => {
+const WhatDid: React.FC = () => {
   return (
     <div className="container-fluid d-flex flex-column justify-content-center align-items-center justify-content-md-start align-items-md-start mt-5">
       <h2 className="pb-1">What I do</h2>
       <h5
-        className="designed-p text-md-start text-center"
+        className="text-md-start text-center"
         style={{
           maxWidth: "500px",
         }}
