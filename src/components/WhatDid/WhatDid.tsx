@@ -12,7 +12,7 @@ const WhatDid: React.FC = () => {
         }}
       >
         I bring ideas to life by building and maintaining{" "}
-        {<span className="wd-span">stunning and intuitive</span>}
+        {<span className="wd-span">stunning and intuitive</span>} {" "}
         web applications that captivate and{" "}
         {<span className="wd-span">engage users</span>}. My motto is Crafting
         digital experiences that inspire and{" "}
