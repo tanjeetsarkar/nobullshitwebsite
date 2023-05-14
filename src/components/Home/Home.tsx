@@ -15,6 +15,8 @@ const Home: React.FC = () => {
           <a
             href="https://twitter.com/TanjeetSarkar"
             style={{ cursor: "pointer" }}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img className="icon-svg-mobile" src={twitter} alt="twitter" />
           </a>
