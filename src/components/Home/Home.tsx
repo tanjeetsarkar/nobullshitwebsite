@@ -12,7 +12,12 @@ const Home: React.FC = () => {
       <div className="d-md-none d-flex flex-column align-items-center justify-content-center pb-3">
         <Avatar />
         <div className="pt-3">
-          <img className="icon-svg-mobile" src={twitter} alt="twitter" />
+          <a
+            href="https://twitter.com/TanjeetSarkar"
+            style={{ cursor: "pointer" }}
+          >
+            <img className="icon-svg-mobile" src={twitter} alt="twitter" />
+          </a>
         </div>
       </div>
       <div id="top-heading" className="top-heading">
@@ -31,8 +36,8 @@ const Home: React.FC = () => {
         <div className="d-none d-md-block">
           <LetsConnect />
         </div>
-      </div >
-        <WhatDid />
+      </div>
+      <WhatDid />
     </div>
   );
 };
