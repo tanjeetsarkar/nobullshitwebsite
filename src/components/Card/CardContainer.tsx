@@ -9,7 +9,6 @@ interface CardContainerProps {
 const CardContainer: React.FC<CardContainerProps> = ({ cards }) => {
     const [scrollLeft, setScrollLeft] = useState(false);
     const containerRef = useRef<any>(null);
-    const cardRef = useRef<any>(null);
 
     const handleScroll = (scrollOffset: any) => {
         containerRef.current.scrollLeft += scrollOffset;
@@ -19,7 +18,7 @@ const CardContainer: React.FC<CardContainerProps> = ({ cards }) => {
     return (
         <div className="card-container mx-sm-2" ref={containerRef}>
             <div className="arrow left-arrow" onClick={() => handleScroll(-250)}>
-                {scrollLeft && <img className="img-thumbnail" src={Arrow} style={{ transform: "rotate(180deg)", backgroundColor: "transparent", border: "none" }} />}
+                {cards.length >2 && scrollLeft && <img className="img-thumbnail" src={Arrow} style={{ transform: "rotate(180deg)", backgroundColor: "transparent", border: "none" }} />}
             </div>
             <div className="card-wrapper">
                 {cards.map((card: any, index: number) => (
@@ -27,7 +26,7 @@ const CardContainer: React.FC<CardContainerProps> = ({ cards }) => {
                 ))}
             </div>
             <div className="arrow right-arrow" onClick={() => handleScroll(250)}>
-                <img className="img-thumbnail" src={Arrow} style={{ backgroundColor: "transparent", border: "none" }} />
+                {cards.length >2 && <img className="img-thumbnail" src={Arrow} style={{ backgroundColor: "transparent", border: "none" }} />}
             </div>
         </div>
     );
