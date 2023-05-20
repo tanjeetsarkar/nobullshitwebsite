@@ -50,11 +50,11 @@ const Home: React.FC = () => {
         }, {
           iconName: "clipboard",
           title: "Web APIs",
-          description: "You will receive a customized plan for your fitness journey, and lots of support."
+          description: "You will receive customized web APIs for your business"
           }, {
           iconName: "globe",
           title: "Support",
-          description: "You will receive a customized plan for your fitness journey, and lots of support."
+          description: "You will receive a customized plan for our business journey, and lots of support."
           }]} />
       </div>
     </div>
