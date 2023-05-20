@@ -12,7 +12,7 @@ const Avatar: React.FC = () => {
       }}
     >
       <img
-        src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1956&q=80"
+        src="https://media.licdn.com/dms/image/D5603AQF1hbRmy4cR6w/profile-displayphoto-shrink_800_800/0/1683686033722?e=1689811200&v=beta&t=VvYMRew76z9FuL-VH3rd22CxyUjF1wIy2FuvdyCd8aM"
         className="img-thumbnail rounded-circle"
         alt="..."
         style={{
