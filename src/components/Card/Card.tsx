@@ -21,8 +21,8 @@ const Card: React.FC<CardProps> = ({ iconName, title, description }) => {
         <img className="shadow img-thumbnail rounded-circle img-card " src={iconTypes[iconName]} alt="icon" />
       </div>
       <div className="card text-center shadow bg-body-secondary custom-body">
-        <div className="card-body pt-5">
-          <h5 className="card-title">{title}</h5>
+        <div className="card-body pt-5" style={{ height: '10em' }}>
+          <h5 className="card-title" style={{ maxHeight: '3em', overflow: 'hidden' }}>{title}</h5>
           <p className="card-text">
             {description}
           </p>

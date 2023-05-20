@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         <CardContainer cards={[{
           iconName: "globe",
           title: "Web Development",
-          description: "You will receive a customized plan for your fitness journey, and lots of support."
+          description: "You will receive top of the line website"
         }, {
           iconName: "clipboard",
           title: "Web APIs",
