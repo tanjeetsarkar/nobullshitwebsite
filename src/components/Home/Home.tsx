@@ -5,6 +5,7 @@ import Biography from "../Biography/Biography";
 import LetsConnect from "../LetsConnect/LetsConnect";
 import twitter from "../../assets/Logo white.svg";
 import WhatDid from "../WhatDid/WhatDid";
+import Card from "../Card/Card";
 
 const Home: React.FC = () => {
   return (
@@ -39,7 +40,11 @@ const Home: React.FC = () => {
           <LetsConnect />
         </div>
       </div>
-      <WhatDid />
+      <div className="mt-5 d-flex flex-md-row flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
+        <WhatDid />
+        <Card iconName="globe"/>
+        <Card iconName="clipboard"/>
+      </div>
     </div>
   );
 };
