@@ -1,0 +1,44 @@
+.card-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px;
+  /* padding: 10px 40px 10px 10px; */
+  position: relative; /* add position relative */
+  max-width: 100%;
+}
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+.card-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  position: sticky;
+  z-index: 20;
+  top: 50%;
+}
+
+.left-arrow {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  left: 0;
+  width: fit-content;
+}
+
+.right-arrow {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  right: 0;
+  width: fit-content;
+}

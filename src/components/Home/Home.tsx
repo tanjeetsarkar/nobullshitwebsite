@@ -6,6 +6,7 @@ import LetsConnect from "../LetsConnect/LetsConnect";
 import twitter from "../../assets/Logo white.svg";
 import WhatDid from "../WhatDid/WhatDid";
 import Card from "../Card/Card";
+import CardContainer from "../Card/CardContainer";
 
 const Home: React.FC = () => {
   return (
@@ -42,8 +43,33 @@ const Home: React.FC = () => {
       </div>
       <div className="mt-5 d-flex flex-md-row flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
         <WhatDid />
-        <Card iconName="globe" title="Web Development" description="You will receive a customized plan for your fitness journey, and lots of support." />
-        <Card iconName="clipboard" title="Web APIs" description="You will receive a customized plan for your fitness journey, and lots of support." />
+        {/* <Card iconName="globe" title="Web Development" description="You will receive a customized plan for your fitness journey, and lots of support." />
+        <Card iconName="clipboard" title="Web APIs" description="You will receive a customized plan for your fitness journey, and lots of support." /> */}
+        <CardContainer cards={[{
+          iconName: "globe",
+          title: "Web Development",
+          description: "You will receive a customized plan for your fitness journey, and lots of support."
+        }, {
+          iconName: "clipboard",
+          title: "Web APIs",
+          description: "You will receive a customized plan for your fitness journey, and lots of support."
+        }, {
+          iconName: "clipboard",
+          title: "Web APIs",
+          description: "You will receive a customized plan for your fitness journey, and lots of support."
+        }, {
+          iconName: "clipboard",
+          title: "Web APIs",
+          description: "You will receive a customized plan for your fitness journey, and lots of support."
+        },{
+          iconName: "clipboard",
+          title: "Web APIs",
+          description: "You will receive a customized plan for your fitness journey, and lots of support."
+        },{
+          iconName: "clipboard",
+          title: "Web APIs",
+          description: "You will receive a customized plan for your fitness journey, and lots of support."
+        }]} />
       </div>
     </div>
   );
