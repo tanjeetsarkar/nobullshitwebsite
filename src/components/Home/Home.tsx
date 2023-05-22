@@ -9,6 +9,21 @@ import Card from "../Card/Card";
 import CardContainer from "../Card/CardContainer";
 
 const Home: React.FC = () => {
+
+  const cards = [{
+    iconName: "globe",
+    title: "Web Development",
+    description: "You will receive top of the line website"
+  }, {
+    iconName: "clipboard",
+    title: "Web APIs",
+    description: "You will receive customized web APIs for your business"
+  }, {
+    iconName: "globe",
+    title: "Support",
+    description: "You will receive a customized plan for our business journey, and lots of support."
+  }]
+
   return (
     <div className="container-fluid d-flex flex-column">
       <div className="d-md-none d-flex flex-column align-items-center justify-content-center pb-3">
@@ -43,19 +58,7 @@ const Home: React.FC = () => {
       </div>
       <div className="mt-5 d-flex flex-md-row flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
         <WhatDid />
-        <CardContainer cards={[{
-          iconName: "globe",
-          title: "Web Development",
-          description: "You will receive top of the line website"
-        }, {
-          iconName: "clipboard",
-          title: "Web APIs",
-          description: "You will receive customized web APIs for your business"
-          }, {
-          iconName: "globe",
-          title: "Support",
-          description: "You will receive a customized plan for our business journey, and lots of support."
-          }]} />
+        <CardContainer cards={cards} />
       </div>
     </div>
   );
